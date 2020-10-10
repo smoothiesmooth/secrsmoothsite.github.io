@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Made The Art Script;
+    src: url("fonts/MADE TheArtist Script PERSONAL USE.otf") format("opentype");
+}
+@font-face {
+    font-family: Caviar Dreams;
+    src: url("fonts/CaviarDreams.ttf") format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+    background-color: rgb(102, 48, 9);
+}
+.header {
+    background-color: rgb(32, 15, 3);
+    padding: 10px;
+    font-size: 30pt;
+}
+#content {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.63);
+    margin: 0px 75px 0px 75px;
+    height: 100vh;
+    background-color: rgb(157, 117, 76);
+}
+#links {
+    float: right;
+}
+.button{
+    vertical-align: middle;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    border-width: 0px;
+    outline: 0px;
+}
+.a {
+    opacity: 10%;
+}
+#stl {
+    font-size: 20pt;
+    color: rgb(212, 175, 55);
+    font-family: Caviar Dreams;
+}
+#button1 {
+    background: url("icons/vk.png") no-repeat;
+    background-size: contain;
+}
+#button2 {
+    background: url("icons/inst.png") no-repeat;
+    background-size: contain;
+}
+#button3 {
+    background: url("icons/fb.png") no-repeat;
+    background-size: contain;
+}
