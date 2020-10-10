@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <title>My test site</title>
         <link rel="stylesheet" href="style\style.css">
-        <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script type="text/javascript">
         $(document).ready(function(){
             $("#menu").on("click","a", function (event) {
@@ -14,21 +15,29 @@
                 $('body,html').animate({scrollTop: top}, 1500);
             });
         });
-        </script> -->
+        </script>
     </head>
     <body>
         <header class="header">
             <a id="stl">Стилист Имидж-Мейкер Наталья Жилич</a>
             <div id="links">
-                <button class="button" type="button" id="button2"><a class="a" href="https://www.instagram.com/natalyzhilich/">lllliiink</a></button>
-                <button class="button" type="button" id="button3"><a class="a" href="https://www.facebook.com/profile.php?id=100001078364250">lllliiink</a></button>
-                <button class="button" type="button" id="button1"><a class="a" href="https://vk.com/natalyshazh">lllliiink</a></button>
+                <a class="a" href="https://www.instagram.com/natalyzhilich/"><img src="style/icons/vk.png" alt="vk" class="imgB"></a>
+                <a class="a" href="https://www.facebook.com/profile.php?id=100001078364250"><img src="style/icons/inst.png" alt="instagram" class="imgB"></a>
+                <a class="a" href="https://vk.com/natalyshazh"><img src="style/icons/fb.png" alt="facebook" class="imgB"></a>
             </div>
         </header>
         <div id="content">
             <!-- <nav id="menu">
                 ТАК ДЕЛАТЬ МЕНЮ ДЛЯ ЖЭКЬЮ СКРИПТА
             </nav> -->
+            <div class="imgP">
+                <p id="pt">Прайсы на услуги:</p><br><br>
+                <img src="style\img\complex.jpg" alt="" width="24%">
+                <img src="style\img\razbor.jpg" alt="" width="24%">
+                <img src="style\img\soprovozhdenie.jpg" alt="" width="24%">
+                <img src="style\img\ymnyi.jpg" alt="" width="24%">
+            </div>
+
         </div>
     </body>
 </html>

@@ -36,23 +36,21 @@ html {
     border-width: 0px;
     outline: 0px;
 }
-.a {
-    opacity: 10%;
-}
 #stl {
     font-size: 20pt;
     color: rgb(212, 175, 55);
     font-family: Caviar Dreams;
 }
-#button1 {
-    background: url("icons/vk.png") no-repeat;
-    background-size: contain;
+.imgB {
+    width: 50px;
+    height: 50px;
 }
-#button2 {
-    background: url("icons/inst.png") no-repeat;
-    background-size: contain;
+.imgP {
+    text-align: center;
 }
-#button3 {
-    background: url("icons/fb.png") no-repeat;
-    background-size: contain;
+#pt {
+    float: left;
+    font-family: Caviar Dreams;
+    font-weight: bold;
+    font-size: 20pt;
 }
