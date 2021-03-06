@@ -1,43 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Nataly Zhilich Style</title>
-        <title>My test site</title>
-        <link rel="stylesheet" href="style\style.css">
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script type="text/javascript">
-        $(document).ready(function(){
-            $("#menu").on("click","a", function (event) {
-                event.preventDefault();
-                var id  = $(this).attr('href'),
-                    top = $(id).offset().top;
-                $('body,html').animate({scrollTop: top}, 1500);
-            });
-        });
-        </script>
-    </head>
-    <body>
-        <header class="header">
-            <a id="stl">Стилист Имидж-Мейкер Наталья Жилич</a>
-            <div id="links">
-                <a class="a" href="https://vk.com/natalyshazh"><img src="style/icons/vk.png" alt="vk" class="imgB"></a>
-                <a class="a" href="https://www.instagram.com/natalyzhilich/"><img src="style/icons/inst.png" alt="instagram" class="imgB"></a>
-                <a class="a" href="https://www.facebook.com/profile.php?id=100001078364250"><img src="style/icons/fb.png" alt="facebook" class="imgB"></a>
-            </div>
-        </header>
-        <div id="content">
-            <!-- <nav id="menu">
-                ТАК ДЕЛАТЬ МЕНЮ ДЛЯ ЖЭКЬЮ СКРИПТА
-            </nav> -->
-            <div class="imgP">
-                <p id="pt">Прайсы на услуги:</p><br><br>
-                <img src="style\img\complex.jpg" alt="" width="24%" class="flexible_image">
-                <img src="style\img\razbor.jpg" alt="" width="24%" class="flexible_image">
-                <img src="style\img\soprovozhdenie.jpg" alt="" width="24%" class="flexible_image">
-            </div>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Григорий Жилич">
+    <title>Стилист Наталья Жилич</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
 
+        <img src="img/logo.png" alt="logo" id="logo">
+
+        <div id="divUl">
+            <ul id="navUl">
+                <li class="navBut" id="activePage"><a href="main.html">Главная</a></li>
+                <li class="navBut"><a href="pages/consult.html">Консультация</a></li>
+                <li class="navBut"><a href="pages/razbor.html">Разбор</a></li>
+                <li class="navBut"><a href="pages/soprovozhdenie.html">Шопинг</a></li>
+                <li class="navBut"><a href="pages/photoset.html">Фотосессия</a></li>
+                <li class="navBut"><a href="pages/tour.html">Шоп-тур</a></li>
+                <li class="navBut"><a href="pages/test.html">Тест</a></li>
+                <li class="navBut"><a href="pages/gallery.html">Галерея</a></li>
+            </ul>
         </div>
-    </body>
+    </div>
+    <div class="glavt">
+        <p id="welcome">Добро пожаловать на сайт стилиста Жилич Натальи!</p>
+    </div>
+    <div class="glavf">
+        <img src="img/photo.jpg" alt="photo">
+    </div>
+    <div class="glavt">
+        <p id="why">Почему же стоит обратиться к услугам стилиста?</p>
+    </div>
+    <div id="tezdiv">
+        <div class="pages">
+            <p>Найти свои стиль — задача не из лёгких, особенно сейчас, когда в моде нет правил и строгих ограничений. Сегодня можно носить что угодно с чем угодно и выражаться с помощью одежды любыми способами без ограничений. При этом изобилие вещей приводит к тому, что человек не понимает, как выбирать. И вовсе не обязательно бежать в дорогие магазины и покупать брендовые вещи. Сделать так, чтобы всё  выглядело гармонично, — сложная задача, которая под силу профессионалу.</p>
+        </div>
+        <div class="pages">
+            <p>Вас что-то не устраивает в вашем внешнем виде. Вы запутались в правильном  сочетании цветов своего гардероба и комбинировании одежды. Вы испытываете неудобства в общении, чувствуюте неуверенность в себе, ведете себя скованно во время деловых встреч или публичных мероприятий. Либо вам по какой-то причине не нравится, как вы одеваетесь, вы не знаете, как правильно укладывать волосы, чтобы создать обворожительный образ, то вам стоит обратиться к стилисту.</p>
+        </div>
+        <div class="pages">
+            <p>Выработать индивидуальный стиль, не всегда бывает просто. Это практически целая наука, где действуют свои законы. Если бы можно было прочитать общие рекомендации и легко воплотить их в жизнь! Но увы, нет. Помните, хорошо выглядеть – это целое искусство, которому нужно учиться. На протяжении всей жизни каждый из нас постигает что-то новое, открывает себя с другой стороны. Работа со стилистом-имиджмейкером поможет вам полюбить себя и свой внешний вид. </p>
+        </div>
+    </div>
+    <div class="footer">
+        <ul id="footUl">
+            <li class="footBut"><a href="https://vk.com/natalyshazh" class="footA"><img src="icon/vk.png" alt="vk" class="imgF"></a></li>
+            <li class="footBut"><a href="https://www.instagram.com/natalyzhilich/" class="footA"><img src="icon/inst.png" alt="instagram" class="imgF"></a></li>
+            <li class="footBut"><a href="https://www.facebook.com/profile.php?id=100001078364250" class="footA"><img src="icon/fb.png" alt="facebook" class="imgF"></a></li>
+        </ul>
+    </div>
+</body>
 </html>
