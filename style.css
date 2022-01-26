@@ -107,7 +107,8 @@ body,html {
     background-color: #505050;
     height: 120px;
     width: 100%;
-    line-height: 120px;
+    display: flex;
+    align-items: center;
 }
 .priceL {
     height: 800px;
@@ -134,6 +135,15 @@ body,html {
 .glavf img{
     width: 120px;
     border-radius: 5px;
+}
+.gallery_container {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.photoG img{
+    height: 250px;
 }
 @media screen and (max-width:1000px) {
     #tezdiv {
