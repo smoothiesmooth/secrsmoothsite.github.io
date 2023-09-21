@@ -1,0 +1,34 @@
+.warning {
+  color: red;
+  display: block;
+}
+.photoset__title {
+  max-width: 1000px;  margin: 0 auto;
+}
+.photoset__info {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.photoset__list {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.list-photoset__item {
+  font-size: 22px;
+  font-family: Roboto;
+  margin: 0 0 20px 0;
+}
+.list-photoset__item:last-child {
+  margin: 0;
+}
+@media screen and (max-width: 400px) {
+  .photoset__title {
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .list-photoset__item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

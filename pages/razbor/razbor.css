@@ -1,0 +1,31 @@
+.razbor__title {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.razbor__info {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.razbor__list {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.list-razbor__item {
+  font-size: 22px;
+  font-family: Roboto;
+  margin: 0 0 20px 0;
+}
+.list-razbor__item:last-child {
+  margin: 0;
+}
+@media screen and (max-width: 400px) {
+  .razbor__title {
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .list-razbor__item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
